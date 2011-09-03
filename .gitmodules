@@ -1,3 +1,7 @@
 [submodule "Support/bin/pyflakes"]
 	path = Support/bin/pyflakes
 	url = git://github.com/dcramer/pyflakes.git
+
+[submodule "Support/bin/pep8"]
+    path = Support/bin/pep8
+    url = git://github.com/jcrocholl/pep8.git

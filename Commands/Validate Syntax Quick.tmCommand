@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string># runs on save; only notifies you if it raises a warning or error
 PYTHONPATH="$TM_BUNDLE_SUPPORT/bin/":$PYTHONPATH "${TM_PYTHON:-python}" "$TM_BUNDLE_SUPPORT/bin/pyflakes_quick.py" "$TM_FILEPATH"
-"$TM_BUNDLE_SUPPORT/bin/pep8/pep8.py" --ignore=E501 "$TM_FILEPATH" | cut -d":" -f2-</string>
+"$TM_BUNDLE_SUPPORT/bin/pep8/pep8.py" -r --ignore=E501 "$TM_FILEPATH" | cut -d":" -f2-</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
